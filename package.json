@@ -1,0 +1,12 @@
+{
+  "name": "base-wallet-risk",
+  "version": "1.0.0",
+  "description": "x402 Base wallet risk analysis service",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "viem": "^2.21.0",
+    "x402-express": "^0.3.0"
+  }
+}
