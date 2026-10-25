@@ -1,12 +1,8 @@
 {
-  "name": "base-wallet-risk",
+  "name": "base-gas-tracker",
   "version": "1.0.0",
-  "description": "x402 Base wallet risk analysis service",
+  "description": "x402 Base gas price tracker - gas prices and tx cost estimates on Base",
   "main": "server.js",
   "scripts": { "start": "node server.js" },
-  "dependencies": {
-    "express": "^4.19.2",
-    "viem": "^2.21.0",
-    "x402-express": "^0.3.0"
-  }
+  "dependencies": { "express": "^4.18.0", "x402-express": "^0.1.0", "viem": "^2.0.0" }
 }

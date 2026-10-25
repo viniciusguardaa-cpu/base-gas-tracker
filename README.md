@@ -1,11 +1,12 @@
-# base-wallet-risk
+# base-gas-tracker
 
-x402 micro-service: Base wallet risk analysis (ETH balance, tx count, token balances, heuristic risk score).
+x402 API: Base gas price tracker and transaction cost estimator.
 
 ## Endpoints
-- GET /health (free)
-- GET /risk?address=0x... (0.002 USDC)
-- GET /tokens?address=0x... (0.002 USDC)
 
-## Run
-npm install && PORT=8860 npm start
+- `GET /health` — free health check
+- `GET /gas` — current gas price snapshot (base fee, priority fee, utilization) — 0.001 USDC
+- `GET /estimate?gasLimit=21000` — estimate tx cost in ETH and USD — 0.001 USDC
+
+## PayTo
+0x65aa59025C4AcD8CD7ba2051ecb9152abaE4fcC6
